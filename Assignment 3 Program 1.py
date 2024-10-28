@@ -15,3 +15,7 @@ mostHourDays = [i + 1 for i in range(5) if dailyHours[i] == mostHours]
 
 # Days Slacked off 
 slackedDays = [i + 1 for i in range(5) if dailyHours[i] < 7]
+
+# Printing Outputs
+print("-------------------------------------------------------------------------")
+print(f"The most hours worked was on Day #{mostHourDays} when you worked {mostHours}")
